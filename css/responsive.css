@@ -412,13 +412,15 @@
 
 
 
+
+
 @media only screen and (max-width: 412px) {
     .spImage {
         height: 60px;
         margin: 23px;
         padding-left: 2px;
     }
-
+    
     .card1 {
         background-color: rgb(176, 236, 135);
         display: inline-block;
@@ -428,7 +430,7 @@
         margin: 31px 52px;
         height: 208px;
     }
-
+    
     .card {
         background-color: pink;
         display: inline-block;
@@ -438,9 +440,24 @@
         margin: 25px 44px;
         height: 234px;
     }
-
+    
     
 }
+
+
+
+@media only screen and (max-width: 360px) {
+    .card1 {
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 97%;
+        margin: 24px 0px;
+        height: 208px;
+    }
+}
+
 
 
 
