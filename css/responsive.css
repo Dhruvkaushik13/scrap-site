@@ -135,12 +135,7 @@
         padding: 0 16px;
         height: 109px;
     }
-
-
 }
-
-
-
 
 @media only screen and (max-width: 1105px) {
     .spImage {
@@ -148,13 +143,7 @@
         margin: 31px;
         padding-left: 2px;
     }
-
-
-
-
 }
-
-
 
 @media only screen and (max-width: 1005px) {
     .spImage {
@@ -197,10 +186,7 @@
         margin: 17px 29px;
         height: 209px;
     }
-
-
 }
-
 
 @media only screen and (max-width: 905px) {
     .spImage {
@@ -248,16 +234,7 @@
         margin-right: 14px;
         opacity: 0.4;
     }
-
-
 }
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 805px) {
     .card {
@@ -319,10 +296,7 @@
         height: inherit;
         margin: 22px -17px;
     }
-
 }
-
-
 
 @media only screen and (max-width: 705px) {
     .spImage {
@@ -338,9 +312,7 @@
         padding: 0 8px;
         height: 109px;
     }
-
 }
-
 
 @media only screen and (max-width: 704px) {
     .spImage {
@@ -368,9 +340,6 @@
         margin: 25px 44px;
         height: 234px;
     }
-
-
-
 }
 
 
@@ -381,12 +350,7 @@
         margin: 9px;
         padding-left: 2px;
     }
-
-
-
 }
-
-
 
 @media only screen and (max-width: 505px) {
     .spImage {
@@ -404,15 +368,29 @@
         margin: 31px 52px;
         height: 208px;
     }
-
-    
-
-
 }
 
+@media only screen and (max-width: 412px) {
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 66%;
+        margin: 25px 44px;
+        height: 234px;
+    }
 
-
-
+    .card1 {
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 71%;
+        margin: 31px 52px;
+        height: 208px;
+    }
+}
 
 @media only screen and (max-width: 412px) {
     .spImage {
@@ -440,11 +418,7 @@
         margin: 25px 44px;
         height: 234px;
     }
-    
-    
 }
-
-
 
 @media only screen and (max-width: 360px) {
     .card1 {
@@ -457,10 +431,6 @@
         height: 208px;
     }
 }
-
-
-
-
 
 @media only screen and (max-width: 305px) {
     .spImage {
@@ -504,5 +474,4 @@
         color: white;
         font-size: 10px;
     }
-
 }
