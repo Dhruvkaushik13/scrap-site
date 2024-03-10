@@ -1,0 +1,491 @@
+/* @media only screen and (max-width: 1341px) { */
+@media only screen and (max-width: 1305px) {
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 460px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .rightNav {
+        text-align: center;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 72px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+    }
+
+    .text-small {
+        text-align: center;
+    }
+
+    .text-big {
+        text-align: center;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .paras {
+        padding: 0px;
+    }
+
+    .spImage {
+        height: 140px;
+        margin: 31px;
+        padding-left: 2px;
+    }
+
+    .card1 {
+        /* background-color: rgb(190, 216, 161); */
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 23%;
+        margin: 20px 6px;
+        height: 216px;
+    }
+
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 28%;
+        margin: 11px 28px;
+        height: 221px;
+    }
+
+    .card h3 {
+        text-align: center;
+        margin: 9px 6px;
+        margin-top: 22px;
+        font-family: 'Caveat';
+        font-size: 25px;
+    }
+
+    .card-img img {
+        height: inherit;
+        border: 2px solid green;
+        width: 89px;
+        height: 98px;
+    }
+
+    .card-content p {
+        font-size: 17px;
+        margin: 0px -32px;
+    }
+}
+
+@media only screen and (max-width: 1205px) {
+    .spImage {
+        height: 127px;
+        margin: 31px;
+        padding-left: 2px;
+    }
+
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 27%;
+        margin: 17px 29px;
+        height: 216px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+        width: 1%;
+        margin: 0px -32px;
+    }
+
+    .card-img img {
+        height: inherit;
+        border: 2px solid green;
+        width: 88px;
+        margin: 0 9px;
+        padding: 0 16px;
+        height: 109px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1105px) {
+    .spImage {
+        height: 112px;
+        margin: 31px;
+        padding-left: 2px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1005px) {
+    .spImage {
+        height: 98px;
+        margin: 31px;
+        padding-left: 2px;
+    }
+
+    .card1 {
+        /* background-color: rgb(190, 216, 161); */
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 22%;
+        margin: 20px 6px;
+        height: 234px;
+    }
+
+    .card1 h3 {
+        text-align: center;
+        margin: 0 12px;
+        margin-top: 15px;
+        font-family: 'Caveat';
+        font-size: 34px;
+    }
+
+    .card1-content p {
+        font-size: 16px;
+        width: 100px;
+        margin: 24px -29px;
+    }
+
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 26%;
+        margin: 17px 29px;
+        height: 209px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 905px) {
+    .spImage {
+        height: 83px;
+        margin: 31px;
+        padding-left: 2px;
+    }
+
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 25%;
+        margin: 17px 29px;
+        height: 249px;
+    }
+
+    .card h3 {
+        text-align: center;
+        margin: 9px 6px;
+        margin-top: 22px;
+        font-family: 'Caveat';
+        font-size: 24px;
+    }
+
+    .card1 h3 {
+        text-align: center;
+        margin: 0 12px;
+        margin-top: 15px;
+        font-family: 'Caveat';
+        font-size: 30px;
+    }
+
+    .card1-content p {
+        font-size: 18px;
+        width: 100px;
+        margin: 2px -86px;
+    }
+
+    .card1-img img {
+        height: inherit;
+        /* border: 2px solid red; */
+        margin: -11px -28px;
+        margin-right: 14px;
+        opacity: 0.4;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 805px) {
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 34%;
+        margin: 25px 44px;
+        height: 251px;
+    }
+
+    .card h3 {
+        text-align: center;
+        margin: 13px 9px;
+        margin-top: 24px;
+        font-family: 'Caveat';
+        font-size: 20px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+
+    .spImage {
+        height: 68px;
+        margin: 31px;
+        padding-left: 2px;
+    }
+
+    .card1 {
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 34%;
+        margin: 31px 52px;
+        height: 263px;
+    }
+
+    .card1-content p {
+        font-size: 16px;
+        margin: 20px -19px;
+    }
+
+    .card1 h3 {
+        text-align: center;
+        margin: 0 12px;
+        margin-top: 15px;
+        font-family: 'Caveat';
+        font-size: 25px;
+    }
+
+    .card1-img img {
+        height: inherit;
+        margin: 22px -17px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 705px) {
+    .spImage {
+        height: 62px;
+        margin: 25px;
+        padding-left: 2px;
+    }
+
+    .card-img img {
+        height: inherit;
+        width: 88px;
+        margin: 0 4px;
+        padding: 0 8px;
+        height: 109px;
+    }
+
+}
+
+
+@media only screen and (max-width: 704px) {
+    .spImage {
+        height: 86px;
+        margin: 9px;
+        padding-left: 2px;
+    }
+
+    .card1 {
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 44%;
+        margin: 31px 52px;
+        height: 208px;
+    }
+
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 52%;
+        margin: 25px 44px;
+        height: 234px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 605px) {
+    .spImage {
+        height: 71px;
+        margin: 9px;
+        padding-left: 2px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 505px) {
+    .spImage {
+        height: 57px;
+        margin: 9px;
+        padding-left: 2px;
+    }
+
+    .card1 {
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 56%;
+        margin: 31px 52px;
+        height: 208px;
+    }
+
+    
+
+
+}
+
+
+
+@media only screen and (max-width: 412px) {
+    .spImage {
+        height: 60px;
+        margin: 23px;
+        padding-left: 2px;
+    }
+
+    .card1 {
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 74%;
+        margin: 31px 52px;
+        height: 208px;
+    }
+
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 69%;
+        margin: 25px 44px;
+        height: 234px;
+    }
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 305px) {
+    .spImage {
+        height: 76px;
+        margin: 21px;
+        padding-left: 2px;
+    }
+    .contact {
+        /* background-color: rgb(240, 218, 238); */
+        background-color: rgb(194, 197, 181);
+        height: 800px;
+        margin-top: 40%;
+    }
+
+    .card1 {
+        background-color: rgb(176, 236, 135);
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 101%;
+        margin: 16px 5px;
+        height: 208px;
+    }
+
+    .card {
+        background-color: pink;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 98%;
+        margin: 18px 7px;
+        height: 234px;
+    }
+
+    .text-footer {
+        text-align: center;
+        padding: 30px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 25%;
+    border: 3px solid cornflowerblue;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 130%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 30px;
+}
+
+#login {
+    padding: 7px 10px;
+    margin-left: 162px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{
+    color: red;
+}
+
+.rightNav{
+    /* background-color: cyan; */
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+    
+}
+
+#search{
+    margin: 10px;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid cornflowerblue;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url('/img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 40%;
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 34px;
+}
+
+.text-small{
+    font-size: 20px;
+    
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid cornflowerblue;
+    background: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.section{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.sectionSubTag{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.contact{
+    /* background-color: rgb(240, 218, 238); */
+    background-color: rgb(194, 197, 181);
+    height: 800px;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 62%;
+    margin: 42px auto;
+}
+
+.form-input{
+    margin: 15px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0; 
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+.spon{
+    /* background-color: rgb(207, 243, 161); */
+    background-color: black;
+    padding: 40px;
+}
+
+
+.card {
+    background-color: #fff;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 29%;
+    margin: 10px 19px;
+    height: 209px;
+}
+
+#missionSection h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 15px;
+    font-family: 'Caveat';
+    font-size: 35px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    
+}
+
+.card-img img{
+    height: inherit;
+    /* border: 2px solid green; */
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p {
+    font-size: 23px;
+    margin: 0 25px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    /* background-color: antiquewhite; */
+    background-color: white;
+}
+
+#sponsers{
+    height: 120px;
+    max-width: 1000px;
+    margin: 27px 260px;
+}
+
+.spImage{
+    height: 160px;
+    margin: 20px;
+}
+
+#sponsorsSection h2{
+    font-size: 40px;
+    font-family: 'Agbalumo';
+    text-align: center;
+    padding: 12px;
+}
+
+.why{
+    /* background-color: rgb(240, 238, 124); */
+    background-color: white;
+    /* background-color: black; */
+    padding: 40px;
+}
+
+#whyus h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    padding: 12px;
+    color: black;
+}
+
+.card1 {
+    /* background-color: rgb(190, 216, 161); */
+    background-color: rgb(176, 236, 135);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 23%;
+    margin: 9px 7px;
+    height: 215px;
+}
+
+.card1 h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 15px;
+    font-family: 'Caveat';
+    font-size: 35px;
+}
+
+.card1-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1-img{
+    height: 130px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    
+}
+
+.card1-img img {
+    height: inherit;
+    /* border: 2px solid red; */
+    margin: 0 -17px;
+}
+
+.card1-content{
+    padding: 0 10px;
+}
+
+.card1-content p {
+    font-size: 18px;
+    margin: 0px -14px;
+}
+
+a{
+    color: white;
+}
